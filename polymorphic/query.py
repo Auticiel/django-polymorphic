@@ -19,7 +19,7 @@ from .query_translate import (
 
 # chunk-size: maximum number of objects requested per db-request
 # by the polymorphic queryset.iterator() implementation
-Polymorphic_QuerySet_objects_per_request = 100
+Polymorphic_QuerySet_objects_per_request = 1000
 
 
 class PolymorphicModelIterable(ModelIterable):
